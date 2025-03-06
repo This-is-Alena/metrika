@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #f5f5f5;
+    width: 100%;
+}
+.container1 {
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFFFFF;
+    padding: 125px;
+    box-sizing: border-box;
+}
+    
+.image_1 {
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/image_1.png');
+    padding-left: 40px;
+    padding-top: 379px;
+    box-sizing: border-box;
+    padding-right: 680px;
+    padding-bottom: 40px;
+}
+
+.paragraf {
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    letter-spacing: -0.03cm;
+    box-sizing: border-box;  
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #121212;
+    letter-spacing: -0.03cm;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #121212;
+    text-align: left;
+    letter-spacing: -0.03cm;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+p.paragraf2 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+    letter-spacing: -0.03cm;
+
+    box-sizing: border-box;  
+}
+
+
+a {
+    margin-top: 30px;
+    padding: 20PX 40PX;
+    display: inline-block;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    font-size: 20px;
+}
