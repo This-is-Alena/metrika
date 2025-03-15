@@ -1,0 +1,163 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #f5f5f5;
+    width: 100%;
+}
+
+section {
+    padding: 150px 125px 0 125px;
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+.section_black {
+    background-color: #121212;
+}
+
+.section_black h2 {
+    color: #FFFFFF;
+}
+
+.section-long {
+    padding-bottom: 150px;
+} 
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #ffffff;
+}
+
+.interior {
+    position: relative;
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/image_1.png'); 
+}    
+
+.image-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;  
+}
+
+h1 {
+    width: 956px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.section_black h3 {
+    color: #FFFFFF;
+}
+
+p.about_us {
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+a.services__a {
+    margin-top: 30px;
+    padding: 20PX 40PX;
+    display: inline-block;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.projects {
+   margin-top: 30px; 
+}
+
+.projects .project {
+    margin-top: 90px;
+}
+
+.projects :first-child {
+    margin-top: 0;
+}
+
+.project__image {
+    margin-bottom: 15px; 
+}
+.project__title {
+    margin-bottom: 15px;
+} 
+
+.project__a {
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.03em;  
+}
+
+.services {
+    margin-top: 34px;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.services :first-child {
+    margin-top: 0;
+}
+
+.service__img {
+    margin-bottom: 15px;
+}
+
+a.project__all {
+    display: block;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    color: #AD1818;
+    border:solid 1px #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+}
+
+a.project__all:hover {
+    color: #ffffff;
+    background-color: #AD1818;
+}
