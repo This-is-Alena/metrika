@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    letter-spacing: -0.03em; 
+}
+
+section {
+    padding: 150px 125px 0 125px;
+}
+
+header {
+    padding: 33px 125px 0 125px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.nav-link {
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+    text-decoration: none;
+    color: #121212;
+}
+
+nav {
+    float: right;
+}
+
+.nav-link:active,
+.nav-link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 33px;
+}
+
+.section_black {
+    background-color: #121212;
+}
+
+.section_black h2 {
+    color: #FFFFFF;
+}
+
+.section-long {
+    padding-bottom: 150px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #ffffff;
+}
+
+.interior {
+    position: relative;
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/image_1.png');
+}
+
+.image-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+h1 {
+    width: 956px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #121212;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #121212;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+}
+
+.section_black h3,
+.container-all h3 {
+    color: #FFFFFF;
+}
+
+p.about_us {
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+}
+
+a.services__a {
+    margin-top: 30px;
+    padding: 20PX 40PX;
+    display: inline-block;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects .project {
+    margin-top: 90px;
+}
+
+.projects :first-child {
+    margin-top: 0;
+}
+
+.project__image {
+    margin-bottom: 15px;
+}
+
+.project__title {
+    margin-bottom: 15px;
+}
+
+.project__a {
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.services {
+    margin-top: 34px;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.services :first-child {
+    margin-top: 0;
+}
+
+.service__img {
+    margin-bottom: 15px;
+}
+
+a.project__all {
+    display: block;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    color: #AD1818;
+    border: solid 1px #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a.project__all:hover {
+    color: #ffffff;
+    background-color: #AD1818;
+}
+
+.container-all {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-image: url('../resources/image_9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.container-all h3 {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+}
+
+.title-contacts:before {
+    content: '';
+    display: block;
+    background-image: url('../resources/tel.png');
+    width: 13px;
+    height: 22px;
+    margin-bottom: 10px;  
+}
+
+.section-contacts {
+    height: 600px;
+    background-color: #FFFFFF;
+    width: 1400px; 
+}
+.contacts a {
+    display: block;
+    margin-top: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    height: 60px;
+    text-decoration: none;
+}
+
+.section-contacts a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 1400px;
+    height: 229px;
+    padding: 60px 0 30px 0;
+}
+
+.footernav {
+    width: 460px;
+    margin: auto;
+}
+
+footer p {
+    padding-top: 80px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.footernav-link {
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footernav-link:active,
+.footernav-link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
